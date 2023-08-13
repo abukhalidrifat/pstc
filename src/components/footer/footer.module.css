@@ -1,0 +1,57 @@
+.container{
+    background-color: #1b2c33;
+    padding: 50px 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+}
+.subtitle svg{
+    margin-left: 10px;
+}
+.phone{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-left: 10px;
+}
+.address{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 250px;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+.copyright{
+    background-color: black;
+    color: white;
+    padding: 60px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: white;
+}
+.social svg{
+    margin-left: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}

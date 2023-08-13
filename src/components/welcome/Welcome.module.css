@@ -1,0 +1,31 @@
+.section{
+  display: flex;
+  border-bottom: 4px solid #e30613;
+}
+.leftContainer {
+  min-width: 640px;
+  height: 693px;
+  background-color: black;
+  padding:240px 70px;
+}
+
+.heading {
+  font-size: 7rem;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.paragraph {
+  font-size: 5rem;
+  color: #e30613;
+  font-weight: bold;
+  text-align: center;
+}
+.rightContainer{
+  min-width: 1280px;
+  height: 693px;
+}
+.rightContainer img{
+  width: 100vw;
+}

@@ -1,0 +1,40 @@
+.section {
+  padding: 60px 170px;
+}
+.heading{
+    font-size: 6.25rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.paragraph{
+    width: 970px;
+    margin: auto;
+    font-size: 4.2rem;
+    font-weight: 400;
+    margin-top: 141px;
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+.productsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img{
+    width: 340px;
+    height: 410px;
+    object-fit: cover;
+}
+
+.title{
+    width: 230px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
