@@ -2,7 +2,7 @@ import React from 'react'
 import Topbar from '@/components/topbar/Topbar'
 import Navbar from '@/components/navbar/navbar'
 import Welcome from '@/components/welcome/Welcome'
-import Product from '@/components/product/Product'
+import Product from '@/components/product/Products'
 import Services from '@/components/services/Services'
 import Contactus from '@/components/contactus/Contactus'
 import Aboutus from '@/components/aboutus/Aboutus'
@@ -15,7 +15,7 @@ export default function Home() {
         <Topbar/>
         <Navbar/>
         <Welcome/>
-        <Product/>
+        {/* <Product/> */}
         <Services/>
         <Contactus/>
         <Aboutus/>

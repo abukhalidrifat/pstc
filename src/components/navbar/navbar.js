@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./navbar.module.css";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -21,7 +22,9 @@ export default function Navbar() {
           </li>
           <li>Home</li>
           <li>About Us</li>
-          <li>Products</li>
+          <li>
+            <Link href={'/product'}>Products</Link>
+          </li>
           <li>Services</li>
           <li>Projects</li>
           <li>Customers</li>

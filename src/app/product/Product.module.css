@@ -1,0 +1,12 @@
+.title{
+    background-color: #ff0000;
+    width: 100%;
+    height: 150px;
+    padding-top: 45px;
+}
+.title p{
+    color: white;
+    font-size: 4.2rem;
+    font-weight: bold;
+    text-align: center;
+}
