@@ -492,47 +492,737 @@ export const ourProducts = [
   },
   {
     title: "Security System Products",
-    sub: [],
+    isSubTitled: false,
+    sub: [
+      {
+        name: "CCTV",
+      },
+      {
+        name: "IP Camera",
+      },
+      {
+        name: "Network Video Recorder(NVR)",
+      },
+      {
+        name: "Digital Video Recorder(DVR)",
+      },
+      {
+        name: "Data Center(Server)",
+      },
+      {
+        name: "Data Storage",
+      },
+      {
+        name: "Video Wall",
+      },
+      {
+        name: "Monitor",
+      },
+      {
+        name: "Decoder",
+      },
+      {
+        name: "Video Wall Controller",
+      },
+      {
+        name: "Smart Surveillance System",
+      },
+      {
+        name: "Access Control System Products",
+      },
+      {
+        name: "Video Intercom Products",
+      },
+      {
+        name: "Thermal Camera",
+      },
+      {
+        name: "Alarm Products",
+      },
+      {
+        name: "Enterprise Software",
+      },
+      {
+        name: "Accessories",
+      },
+    ],
   },
   {
     title: "Telecommunication System",
-    sub: [],
+    isSubTitled: false,
+    sub: [
+      {
+        name: "Industrial Network Switch",
+      },
+      {
+        name: "Router",
+      },
+      {
+        name: "Networking Products",
+      },
+      {
+        name: "Internet of Things(IoT) Products",
+      },
+      {
+        name: "Mobility & Wireless Products",
+      },
+      {
+        name: "Network Security Products",
+      },
+      {
+        name: "Data Center Products",
+      },
+      {
+        name: "Cloud",
+      },
+      {
+        name: "Wireless AP/Bridge/Client",
+      },
+      {
+        name: "Network Security Appliance",
+      },
+      {
+        name: "Network Automation Products",
+      },
+      {
+        name: "Network Management Software",
+      },
+      {
+        name: "Software (Security, Data Center & Networking)",
+      },
+      {
+        name: "Media Converter",
+      },
+      {
+        name: "Serial Converter",
+      },
+      {
+        name: "Protocol Gateway ",
+      },
+      {
+        name: "SFP",
+      },
+    ],
   },
   {
     title: "Metering System",
-    sub: [],
+    isSubTitled: false,
+    sub: [
+      {
+        name: "Residential Meter",
+      },
+      {
+        name: "Industrial and Commercial Meter",
+      },
+      {
+        name: "HT CT Metering",
+      },
+      {
+        name: "LTCT Meter",
+      },
+      {
+        name: "Prepayment Meter",
+      },
+      {
+        name: "Water Meter",
+      },
+      {
+        name: "Gas Meter",
+      },
+    ],
   },
   {
     title: "Elevator System",
-    sub: [],
+    isSubTitled: false,
+    sub: [
+      {
+        name: "Passenger Elevator",
+      },
+      {
+        name: "Observation Elevator",
+      },
+      {
+        name: "Freight Elevator",
+      },
+      {
+        name: "Car Elevator",
+      },
+      {
+        name: "Villa Elevator",
+      },
+      {
+        name: "Escalator",
+      },
+      {
+        name: "Moving Walk",
+      },
+    ],
   },
   {
     title: "Protection & Control Panel",
-    sub: [],
+    isSubTitled: false,
+    sub: [
+      {
+        name: "Generator Control Panel (Natural Gas Generator/Diesel Generator/HFO Generator)",
+      },
+      {
+        name: "Turbine Control & Protection Panel (Gas Turbine & Steam Turbine)",
+      },
+      {
+        name: "Boiler Control & Protection Panel",
+      },
+      {
+        name: "Air Insulated Switchgear (LV, MV & HV)",
+      },
+      {
+        name: "Motor Control Center (LV, MV & HV)",
+      },
+      {
+        name: "Gas Insulated Switchgear (MV & HV)",
+      },
+      {
+        name: "Transformer Control & Protection Panel (MV & HV)",
+      },
+      {
+        name: "Metering Panel (LV, MV & HV)",
+      },
+      {
+        name: "Power Plant Control System",
+      },
+      {
+        name: "Substation Control System",
+      },
+      {
+        name: "Ring Main Unit (RMU) (MV & HV)",
+      },
+      {
+        name: "Remote Terminal Unit (RTU) (MV & HV)",
+      },
+      {
+        name: "Remote Terminal Unit (RTU) (MV & HV)",
+      },
+      {
+        name: "Synchronization Panel",
+      },
+      {
+        name: "Industrial Process Control System",
+      },
+    ],
   },
   {
     title: "Motor, Pump & Drive System",
-    sub: [],
+    isSubTitled: false,
+    sub: [
+      {
+        name: "AC Motor (LV, MV & HV)",
+      },
+      {
+        name: "Induction Motor (LV, MV & HV)",
+      },
+      {
+        name: "Synchronous Motor",
+      },
+      {
+        name: "Radiator Motor",
+      },
+      {
+        name: "DC Motor",
+      },
+      {
+        name: "Servo Motor",
+      },
+      {
+        name: "Brake Motor",
+      },
+      {
+        name: "Geared Motor",
+      },
+      {
+        name: "Gearless Motor",
+      },
+      {
+        name: "Hydraulic Pump",
+      },
+      {
+        name: "Centrifugal Pump",
+      },
+      {
+        name: "Liner Cooling Pump",
+      },
+      {
+        name: "Gear Oil Pump",
+      },
+      {
+        name: "Industrial Exhaust Fan Unit",
+      },
+      {
+        name: "Industrial Ventilation Fan Unit",
+      },
+      {
+        name: "Soft Starter",
+      },
+      {
+        name: "Star Delta Starter",
+      },
+      {
+        name: "AC Drive (LV, MV & HV)",
+      },
+      {
+        name: "DC Drive",
+      },
+      {
+        name: "Servo Drive",
+      },
+    ],
   },
   {
     title: "Renewable Energy Generation Products",
-    sub: [],
+    isSubTitled: true,
+    sub: [
+      {
+        subTitle: "Solar Products",
+        subOfSub: [
+          {
+            name: "Solar Panel (Poly Crystalline & Mono Crystalline)",
+          },
+          {
+            name: "Solar Battery System",
+          },
+          {
+            name: "Solar Charge Controller",
+          },
+          {
+            name: "Solar Inverter (Off Grid & On Grid)",
+          },
+          {
+            name: "Solar Camping Light",
+          },
+          {
+            name: "Solar Torch",
+          },
+          {
+            name: "Solar Charger",
+          },
+          {
+            name: "Solar Fan",
+          },
+          {
+            name: "Solar Street Light",
+          },
+          {
+            name: "Solar Air Conditioner",
+          },
+          {
+            name: "Solar Irrigation Pump",
+          },
+          {
+            name: "Solar Lighting Kits",
+          },
+          {
+            name: "Solar Refrigerator",
+          },
+          {
+            name: "Solar TV",
+          },
+          {
+            name: "Solar Garden Lamp",
+          },
+          {
+            name: "Solar Lawn Lamp",
+          },
+          {
+            name: "Solar Traffic Warning Light",
+          },
+          {
+            name: "Wind Solar Hybrid Street Light",
+          },
+        ],
+      },
+      {
+        subTitle: "Solar Power System",
+        subOfSub: [
+          {
+            name: "Solar Home Power System (5W-2000W)",
+          },
+          {
+            name: "Off Grid Solar Power System (600W-500KW)",
+          },
+          {
+            name: "On Grid Solar Power System (1MW-50MW)",
+          },
+          {
+            name: "Grid Tied Solar Power Plant",
+          },
+        ],
+      },
+      {
+        subTitle: "Wind Products",
+        subOfSub: [
+          {
+            name: "Wind Turbine",
+          },
+          {
+            name: "Wind Battery Bank",
+          },
+          {
+            name: "Wind Charge Controller",
+          },
+          {
+            name: "Off grid Wind Inverter",
+          },
+          {
+            name: "On grid Wind Inverter",
+          },
+          {
+            name: "Hybrid Power System",
+          },
+        ],
+      },
+      {
+        subTitle: "Wind Power System",
+        subOfSub: [
+          {
+            name: "Wind Home Power System",
+          },
+          {
+            name: "Off Grid Wind Power System",
+          },
+          {
+            name: "On Grid Wind Power System",
+          },
+          {
+            name: "Grid Tied Wind Power Plant",
+          },
+        ],
+      },
+      {
+        subTitle: "Hybrid Power System",
+        subOfSub: [
+          {
+            name: "Wind Solar Hybrid Power System",
+          },
+          {
+            name: "Solar Diesel Hybrid Power System",
+          },
+          {
+            name: "Wireless Solar Data Acquisition System",
+          },
+          {
+            name: "Solar Mobile Charging System",
+          },
+          {
+            name: "PV Desalination System",
+          },
+        ],
+      },
+    ],
   },
   {
-    title: "Construction Machinery",
-    sub: [],
+    title: "Industrial Production Plant",
+    isSubTitled: false,
+    sub: [
+      {
+        name: "Industrial Water Treatment Plant",
+      },
+      {
+        name: "Effluent Treatment Plant (ETP)",
+      },
+      {
+        name: "Beverage Plant",
+      },
+      {
+        name: "Auto Rice Mill",
+      },
+      {
+        name: "Automatic Flour Mill",
+      },
+      {
+        name: "Automatic Clay Brick Production Line",
+      },
+      {
+        name: "Detergent Plant",
+      },
+      {
+        name: "Steel Production Plant",
+      },
+      {
+        name: "Sugar Production Plant",
+      },
+      {
+        name: "Fertilizer Production Plant",
+      },
+      {
+        name: "Other Production Plant",
+      },
+    ],
   },
   {
     title: "Material Handling Equipment",
-    sub: [],
+    isSubTitled: false,
+    sub: [
+      {
+        name: "Batcher Trolley",
+      },
+      {
+        name: "Forklift and Forklift Attachment",
+      },
+      {
+        name: "Pallet Truck",
+      },
+      {
+        name: "Forklift Truck",
+      },
+      {
+        name: "Counterbalance Truck",
+      },
+      {
+        name: "Towing Tractor",
+      },
+      {
+        name: "Component & Spare Parts",
+      },
+      {
+        name: "Component & Spare Parts",
+      },
+    ],
   },
   {
     title: "Construction Machinery",
-    sub: [],
+    isSubTitled: false,
+    sub: [
+      {
+        name: "Excavator",
+      },
+      {
+        name: "Backhoe",
+      },
+      {
+        name: "Bulldozer",
+      },
+      {
+        name: "Graders",
+      },
+      {
+        name: "Wheel Tractor Scraper",
+      },
+      {
+        name: "Trencher",
+      },
+      {
+        name: "Wheel Loader",
+      },
+      {
+        name: "Crane",
+      },
+      {
+        name: "Compactor",
+      },
+      {
+        name: "Pile Boring Machine",
+      },
+      {
+        name: "Aerial Working Platform Truck",
+      },
+      {
+        name: "Batching Plant",
+      },
+      {
+        name: "Truck mounted concrete pump",
+      },
+      {
+        name: "Concrete Mixer Machine",
+      },
+      {
+        name: "Dump Truck",
+      },
+      {
+        name: "Truck Mixer",
+      },
+      {
+        name: "Hoist",
+      },
+      {
+        name: "Stacker",
+      },
+      {
+        name: "Road Construction Machinery",
+      },
+      {
+        name: "Components and Spare Parts",
+      },
+    ],
   },
   {
     title: "Architect Finishing Materials",
-    sub: [],
+    isSubTitled: true,
+    sub: [
+      {
+        subTitle: "Tile",
+        subOfSub: [
+          {
+            name: "Gun sprayed tile",
+          },
+          {
+            name: "Vinyl composition tile (PVC)",
+          },
+          {
+            name: "Homogeneous ceramic tile for floor",
+          },
+          {
+            name: "Glazed ceramic tile for wall",
+          },
+          {
+            name: "Acid resistance tile for floor",
+          },
+          {
+            name: "Acid resistance tile for wall",
+          },
+          {
+            name: "Vinyl base",
+          },
+          {
+            name: "Anti-static PVC tile",
+          },
+          {
+            name: "Carpet tile (wall to wall)",
+          },
+          {
+            name: "Other Finishing Materials",
+          },
+        ],
+      },
+      {
+        subTitle: "Paint",
+        subOfSub: [
+          {
+            name: "Emulsion paint (int.)",
+          },
+          {
+            name: "Emulsion paint (ext.)",
+          },
+          {
+            name: "Epoxy paint (floor & wall)",
+          },
+          {
+            name: "Acid resistance paint",
+          },
+          {
+            name: "Chemical resistance paint",
+          },
+          {
+            name: "Acrylic paint (int.)",
+          },
+        ],
+      },
+      {
+        subTitle: "Ceiling",
+        subOfSub: [
+          {
+            name: "Ceiling (PVC)",
+          },
+          {
+            name: "Ceiling (aluminum)",
+          },
+          {
+            name: "Ceiling (wool/mineral type)",
+          },
+          {
+            name: "Gypsum board",
+          },
+        ],
+      },
+      {
+        subTitle: "Door",
+        subOfSub: [
+          {
+            name: "Fire steel door",
+          },
+          {
+            name: "Normal steel door",
+          },
+          {
+            name: "Wooden door",
+          },
+          {
+            name: "Glass door",
+          },
+          {
+            name: "PVC door",
+          },
+          {
+            name: "Steel sliding door",
+          },
+          {
+            name: "Tempered glass door",
+          },
+          {
+            name: "Roll up door (steel shutter) ",
+          },
+        ],
+      },
+      {
+        subTitle: "Other Finishing Materials",
+        subOfSub: [
+          {
+            name: "Hardener",
+          },
+          {
+            name: "Granolithic screed c/w floor hardener",
+          },
+          {
+            name: "Hard screed topping carborundum type with epoxy coating",
+          },
+          {
+            name: "Aluminum composite panel",
+          },
+          {
+            name: "Window",
+          },
+          {
+            name: "Sanitary ware",
+          },
+          {
+            name: "Furniture",
+          },
+          {
+            name: "FRP lining",
+          },
+          {
+            name: "Built up waterproofing",
+          },
+          {
+            name: "Waterstop (PVC)",
+          },
+          {
+            name: "Liquid water proofing for floor",
+          },
+          {
+            name: "Vapor barrier",
+          },
+          {
+            name: "Liquid waterproofing",
+          },
+          {
+            name: "Capillary waterproofing",
+          },
+          {
+            name: "Aluminum louver",
+          },
+          {
+            name: "Suspended noncombustible mineral fiber board ceiling",
+          },
+          {
+            name: "STS window (double)",
+          },
+          {
+            name: "Moisture resistant acoustic tile ceiling",
+          },
+          {
+            name: "Powder coated noise reduction ceiling",
+          },
+        ],
+      },
+    ],
   },
   {
     title: "Other Products",
