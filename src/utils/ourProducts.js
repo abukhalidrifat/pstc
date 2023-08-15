@@ -1220,6 +1220,36 @@ export const ourProducts = [
           {
             name: "Powder coated noise reduction ceiling",
           },
+          {
+            name: "Metal stud wall (normal)",
+          },
+          {
+            name: "Metal stud wall (fire resistant rating)",
+          },
+          {
+            name: "Access floor",
+          },
+          {
+            name: "Toilet partition",
+          },
+          {
+            name: "Urinal screen",
+          },
+          {
+            name: "Shower screen",
+          },
+          {
+            name: "Lavatory table",
+          },
+          {
+            name: "Toilet table stone",
+          },
+          {
+            name: "Mirror / damp proofing",
+          },
+          {
+            name: "Curtain box",
+          },
         ],
       },
     ],
