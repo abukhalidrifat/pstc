@@ -20,7 +20,9 @@ export default function Navbar() {
               />
             </svg>
           </li>
-          <li>Home</li>
+          <li>
+            <Link href={'/'}>Home</Link>
+          </li>
           <li>About Us</li>
           <li>
             <Link href={'/product'}>Products</Link>

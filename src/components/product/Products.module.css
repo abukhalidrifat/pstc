@@ -1,5 +1,8 @@
 .section {
-  padding: 60px 170px;
+  padding: 80px 0;
+}
+.homeSection{
+    padding: 140px 80px;
 }
 .heading{
     font-size: 6.25rem;
@@ -20,9 +23,8 @@
 .productsContainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 60px;
-
+    gap: 100px;
+    justify-content: center;
 }
 
 .product{
@@ -38,7 +40,6 @@
 }
 
 .title{
-    /* width: 230px; */
     height: 170px;
     margin: auto;
     margin-top: -2px;
@@ -47,6 +48,7 @@
     font-weight: 400;
     color: #fff;
     padding: 15px;
+    padding-top: 20px;
     background-color: #ff0000;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;

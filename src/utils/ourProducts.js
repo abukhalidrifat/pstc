@@ -474,7 +474,7 @@ export const ourProducts = [
         name: "Safety Instrumented System",
       },
       {
-        name: "Condition Monitoring and I/O",
+        name: "Condition Monitoring and IO",
       },
       {
         name: "Advanced Process Control Systems",
@@ -605,7 +605,7 @@ export const ourProducts = [
     ],
   },
   {
-    title: "Metering System",
+    title: "Metering System Products",
     isSubTitled: false,
     sub: [
       {
@@ -632,7 +632,7 @@ export const ourProducts = [
     ],
   },
   {
-    title: "Elevator System",
+    title: "Elevator System Products",
     isSubTitled: false,
     sub: [
       {
@@ -1124,7 +1124,7 @@ export const ourProducts = [
             name: "Ceiling (aluminum)",
           },
           {
-            name: "Ceiling (wool/mineral type)",
+            name: "Ceiling (wool or mineral type)",
           },
           {
             name: "Gypsum board",
@@ -1156,7 +1156,7 @@ export const ourProducts = [
             name: "Tempered glass door",
           },
           {
-            name: "Roll up door (steel shutter) ",
+            name: "Roll up door (steel shutter)",
           },
         ],
       },
@@ -1167,7 +1167,7 @@ export const ourProducts = [
             name: "Hardener",
           },
           {
-            name: "Granolithic screed c/w floor hardener",
+            name: "Granolithic screed c or w floor hardener",
           },
           {
             name: "Hard screed topping carborundum type with epoxy coating",
@@ -1245,7 +1245,7 @@ export const ourProducts = [
             name: "Toilet table stone",
           },
           {
-            name: "Mirror / damp proofing",
+            name: "Mirror or damp proofing",
           },
           {
             name: "Curtain box",

@@ -1,29 +1,71 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { ourProducts } from "@/utils/ourProducts";
 import Topbar from "@/components/topbar/Topbar";
 import Footer from "@/components/footer/footer";
 import styles from "../Product.module.css";
 import ProductCrad from "@/components/product/ProductCard";
+import slugify from "react-slugify";
+import Navbar from "@/components/navbar/navbar";
+import Modal from "@/components/modal/Modal";
 
 export default function SubProduct({ params }) {
-  // const filtered = ourProducts.filter((post) => {
-  //   return post.title === params.slug;
-  // });
+  const filtered = ourProducts.filter((post) => {
+    return slugify(post.title) === params.slug;
+  });
 
-  // console.log({ ...filtered });
+  const [modal, setModal] = useState(false);
+  const [modalImg, setModalImg] = useState(null);
 
-  console.log();
+  const handleOpenModal = (img) => {
+    setModal(true);
+    setModalImg(img);
+  };
 
   return (
     <>
+      {modal && <Modal image={modalImg} closeModal={() => setModal(false)} />}
       <Topbar />
+      <Navbar />
       <section>
         <div className={styles.title}>
-          <p>{params.slug.split("-").join(" ").toUpperCase()}</p>
+          <p>{filtered[0].title}</p>
         </div>
-        <ProductCrad />
+        <div
+          className={styles.container}
+          style={
+            filtered[0].isSubTitled
+              ? { padding: "0 0", paddingBottom: "80px" }
+              : { padding: "140px 0" }
+          }
+        >
+          {!filtered[0].isSubTitled
+            ? filtered[0].sub.map((item) => (
+                <ProductCrad
+                  key={item.name}
+                  title={item.name}
+                  img={`/${filtered[0].title}/${item.name}.jpg`}
+                  isSubcategory={true}
+                  openModalImg={handleOpenModal}
+                />
+              ))
+            : filtered[0].sub.map((items) => (
+                <>
+                  <div className={[styles.title, styles.subCatTitle].join(" ")}>
+                    <p>{items.subTitle}</p>
+                  </div>
+                  {items.subOfSub.map((item) => (
+                    <ProductCrad
+                      title={item.name}
+                      img={`/${filtered[0].title}/${items.subTitle}/${item.name}.jpg`}
+                      isSubcategory={true}
+                      openModalImg={handleOpenModal}
+                    />
+                  ))}
+                </>
+              ))}
+        </div>
       </section>
       <Footer />
     </>
