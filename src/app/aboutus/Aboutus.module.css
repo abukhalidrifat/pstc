@@ -1,0 +1,35 @@
+.title{
+    font-size: 6.6rem;
+    font-weight: 400;
+    background-color: #1b2c33;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.paragraph{
+    width: 1310px;
+    margin: auto;
+    font-size: 3.3rem;
+    font-weight: 500;
+    color: #000;
+    text-align: justify;
+    margin-bottom: 60px;
+    line-height: 40px;
+}
+
+.img{
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.items{
+    padding: 0px 210px;
+    padding-bottom: 60px;
+}
+.items ul li{
+    font-size: 3.3rem;
+    margin-bottom: 10px;
+}

@@ -34,7 +34,7 @@ export default function ProductCrad({
         <Image
           src={img}
           alt="image"
-          className={styles.img}
+          className={styles.cardImg}
           width={340}
           height={410}
         />

@@ -23,7 +23,9 @@ export default function Navbar() {
           <li>
             <Link href={'/'}>Home</Link>
           </li>
-          <li>About Us</li>
+          <li>
+          <Link href={'/aboutus'}>About Us</Link>
+          </li>
           <li>
             <Link href={'/product'}>Products</Link>
           </li>

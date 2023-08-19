@@ -31,13 +31,16 @@
     width: 340px;
 }
 
-.img{
+.cardImg{
     width: 100%;
     height: 410px;
-    object-fit: cover;
+    object-fit: fill;
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
 }
+.cardImg:hover {
+   object-fit: cover; 
+  }
 
 .title{
     height: 170px;

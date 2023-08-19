@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
-import { ourProducts } from "@/utils/ourProducts";
+import React, { useEffect, useState } from "react";
+import ourProducts from "@/utils/ourProducts";
 import Topbar from "@/components/topbar/Topbar";
 import Footer from "@/components/footer/footer";
 import styles from "../Product.module.css";
