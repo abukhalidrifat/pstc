@@ -32,21 +32,19 @@ export default function Navbar() {
           <li>
             <Link href={"/vendor"}>Vendors</Link>
           </li>
-          <li>Services</li>
-          <li>Projects</li>
+          <li>
+            <Link href={"/services"}>Services</Link>
+          </li>
+          <li>
+            <Link href={"/projects"}>Projects</Link>
+          </li>
           <li>
             <Link href={"/customer"}>Customers</Link>
           </li>
-          <li>Principal Company</li>
-          <li>News and events</li>
+          <li><Link href={"/principlecompany"}>Principal Company</Link></li>
+          <li><Link href={"/newsandevents"}>News & Events</Link></li>
           <li>
-            <a
-              href="/business_profile.pdf"
-              className={styles.subtitle}
-              download
-            >
-              Business Profile
-            </a>
+            <Link href={"/businessprofile"}>Business Profile</Link>
           </li>
         </ul>
       </div>
