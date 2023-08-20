@@ -45,7 +45,9 @@ export default function SubProduct({ params }) {
                 <ProductCrad
                   key={item.name}
                   title={item.name}
-                  img={`/${filtered[0].title}/${item.name}.jpg`}
+                  img={`/${slugify(filtered[0].title)}/${slugify(
+                    item.name
+                  )}.jpg`}
                   isSubcategory={true}
                   openModalImg={handleOpenModal}
                 />
@@ -58,7 +60,9 @@ export default function SubProduct({ params }) {
                   {items.subOfSub.map((item) => (
                     <ProductCrad
                       title={item.name}
-                      img={`/${filtered[0].title}/${items.subTitle}/${item.name}.jpg`}
+                      img={`/${slugify(filtered[0].title)}/${slugify(
+                        items.subTitle
+                      )}/${slugify(item.name)}.jpg`}
                       isSubcategory={true}
                       openModalImg={handleOpenModal}
                     />

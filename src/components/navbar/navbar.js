@@ -21,20 +21,33 @@ export default function Navbar() {
             </svg>
           </li>
           <li>
-            <Link href={'/'}>Home</Link>
+            <Link href={"/"}>Home</Link>
           </li>
           <li>
-          <Link href={'/aboutus'}>About Us</Link>
+            <Link href={"/aboutus"}>About Us</Link>
           </li>
           <li>
-            <Link href={'/product'}>Products</Link>
+            <Link href={"/product"}>Products</Link>
+          </li>
+          <li>
+            <Link href={"/vendor"}>Vendors</Link>
           </li>
           <li>Services</li>
           <li>Projects</li>
-          <li>Customers</li>
+          <li>
+            <Link href={"/customer"}>Customers</Link>
+          </li>
           <li>Principal Company</li>
           <li>News and events</li>
-          <li>Download</li>
+          <li>
+            <a
+              href="/business_profile.pdf"
+              className={styles.subtitle}
+              download
+            >
+              Business Profile
+            </a>
+          </li>
         </ul>
       </div>
     </>

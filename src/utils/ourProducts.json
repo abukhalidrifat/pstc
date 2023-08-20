@@ -101,9 +101,6 @@
           },
           {
             "name": "Power Cable and Control Cable"
-          },
-          {
-            "name": "Spare Parts"
           }
         ]
       },
@@ -118,9 +115,6 @@
           },
           {
             "name": "MV Vacuum Contactor"
-          },
-          {
-            "name": "MV Load Break Switch"
           },
           {
             "name": "MV Load Break Switch"
@@ -261,9 +255,6 @@
       {
         "subTitle": "Transformer",
         "subOfSub": [
-          {
-            "name": "Step down Oil Immersed Power Transformer (132-KV,33-KV,11-KV)"
-          },
           {
             "name": "Step down Oil Immersed Power Transformer (132-KV,33-KV,11-KV)"
           },
@@ -875,9 +866,6 @@
           },
           {
             "name": "On grid Wind Inverter"
-          },
-          {
-            "name": "Hybrid Power System"
           }
         ]
       },

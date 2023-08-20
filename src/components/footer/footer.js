@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
         <div>
           <p className={styles.title}>BUSINESS PROFILE</p>
-          <p className={styles.subtitle}>Download</p>
+          <a href="/business_profile.pdf" className={styles.subtitle} download>Download</a>
         </div>
         <div>
           <p className={styles.title}>PRINCIPAL COMPANY</p>
