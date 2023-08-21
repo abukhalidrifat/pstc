@@ -12,9 +12,11 @@ export default function Topbar() {
         <div className={styles.conatiner}>
             <Image src={logo} className={styles.mainlogo}/>
             <p>Power Solution Trading Company</p>
-            <Image src={logo2} className={styles.logo}/>
+            <div className={styles.logoDiv}>
+            <Image src={logo2} className={styles.logo} style={{ marginLeft:'15px' }}/>
             <Image src={logo3} className={styles.logo}/>
-            <Image src={logo4} className={styles.logo}/>
+            <Image src={logo4} className={styles.logo} />
+            </div>
         </div>
     </>
   )
