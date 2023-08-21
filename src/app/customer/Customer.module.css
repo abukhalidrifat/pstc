@@ -106,3 +106,7 @@
   height: 700px;
   object-fit: fill;
 }
+
+.business img{
+  margin-bottom: 30px;
+}

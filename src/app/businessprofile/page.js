@@ -20,19 +20,19 @@ export default function BusinessProfile() {
           <Image
             src={"/business-profile/1.jpg"}
             alt="image"
-            width={1700}
+            width={1400}
             height={2000}
           />
           <Image
             src={"/business-profile/2.jpg"}
             alt="image"
-            width={1700}
+            width={1400}
             height={2000}
           />
           <Image
             src={"/business-profile/3.jpg"}
             alt="image"
-            width={1700}
+            width={1400}
             height={2000}
           />
           {show && (
@@ -40,13 +40,13 @@ export default function BusinessProfile() {
               <Image
                 src={"/business-profile/4.jpg"}
                 alt="image"
-                width={1700}
+                width={1400}
                 height={2000}
               />
               <Image
                 src={"/business-profile/5.jpg"}
                 alt="image"
-                width={1700}
+                width={1400}
                 height={2000}
               />
             </>
