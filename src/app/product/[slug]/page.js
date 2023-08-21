@@ -50,6 +50,7 @@ export default function SubProduct({ params }) {
                   )}.jpg`}
                   isSubcategory={true}
                   openModalImg={handleOpenModal}
+                  showOrderNow={true}
                 />
               ))
             : filtered[0].sub.map((items) => (
@@ -65,6 +66,7 @@ export default function SubProduct({ params }) {
                       )}/${slugify(item.name)}.jpg`}
                       isSubcategory={true}
                       openModalImg={handleOpenModal}
+                      showOrderNow={true}
                     />
                   ))}
                 </>

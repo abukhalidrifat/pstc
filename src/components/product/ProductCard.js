@@ -11,6 +11,7 @@ export default function ProductCrad({
   img,
   isSubcategory,
   openModalImg,
+  showOrderNow = false,
 }) {
   const router = useRouter();
   const handleReddirect = (title) => {
@@ -23,22 +24,37 @@ export default function ProductCrad({
 
   return (
     <>
-      <div
-        className={styles.product}
-        key={title}
-        onClick={() => {
-          handleReddirect(title);
-          openModalImg(img);
-        }}
-      >
+      <div className={styles.product} key={title}>
         <Image
           src={img}
           alt="image"
           className={styles.cardImg}
           width={340}
           height={410}
+          onClick={() => {
+            handleReddirect(title);
+            openModalImg(img);
+          }}
         />
-        <p className={styles.title}>{title}</p>
+        <div className={styles.bottom}>
+          <p
+            className={styles.title}
+            onClick={() => {
+              handleReddirect(title);
+              openModalImg(img);
+            }}
+          >
+            {title}
+          </p>
+          {showOrderNow && (
+            <button
+              className={styles.button}
+              onClick={() => router.push(`/product/order`)}
+            >
+              Order Now
+            </button>
+          )}
+        </div>
       </div>
     </>
   );

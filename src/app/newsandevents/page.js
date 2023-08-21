@@ -9,9 +9,11 @@ export default function Newsandevents() {
       <Topbar />
       <Navbar />
       <section>
-        <h1 style={{ fontSize: "4rem", textAlign: "center",padding:'100px', }}>COMMING SOON</h1>
+        <h1 style={{ fontSize: "4rem", textAlign: "center", padding: "100px" }}>
+          Stay with us for get our regular news & event updates
+        </h1>
       </section>
-      <Footer/>
+      <Footer />
     </>
   );
 }

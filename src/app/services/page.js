@@ -4,6 +4,7 @@ import styles from "../customer/Customer.module.css";
 import Topbar from "@/components/topbar/Topbar";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
+import Image from "next/image";
 
 export default function Services() {
   return (
@@ -65,6 +66,7 @@ export default function Services() {
             </li>
           </ul>
         </div>
+        <Image src={'/services.jpeg'} className={styles.img} width={400} height={500}/>
       </section>
       <Footer />
     </>

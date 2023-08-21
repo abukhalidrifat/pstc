@@ -7,6 +7,10 @@
     padding: 60px;
     margin-bottom: 60px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+.title:hover{
+    font-size: 6.8rem;
 }
 .paragraph{
     width: 1310px;

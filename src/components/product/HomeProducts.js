@@ -16,10 +16,6 @@ export default function HomeProducts() {
     <>
       <section className={styles.homeSection}>
         <p className={styles.heading}>PRODUCTS</p>
-        <p className={styles.paragraph}>
-          As per customer requirement, we can supply any product of Chinese
-          brand & world famous brand
-        </p>
 
         <Swiper
           spaceBetween={50}
@@ -29,7 +25,11 @@ export default function HomeProducts() {
         >
           {ourProducts.map((item) => (
             <SwiperSlide>
-              <ProductCrad title={item.title} img={item.img} isSubcategory={false}/>
+              <ProductCrad
+                title={item.title}
+                img={item.img}
+                isSubcategory={false}
+              />
             </SwiperSlide>
           ))}
         </Swiper>

@@ -5,6 +5,7 @@ import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import organogram from "@/../public/Home Page Images/Organogram.png";
 import Image from "next/image";
+import Contactus from "@/components/contactus/Contactus";
 
 export default function AboutUs() {
   return (
@@ -68,6 +69,7 @@ export default function AboutUs() {
             <li>Industrial Production Plant</li>
           </ul>
         </div>
+        <Contactus/>
       </section>
       <Footer />
     </>

@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./footer.module.css";
+import Link from "next/link";
 export default function Footer() {
   return (
     <>
       <div className={styles.container}>
         <div>
           <p className={styles.title}>OUR VENDORS</p>
-          <p className={styles.subtitle}>
+          <Link href={'vendor'} className={styles.subtitle}>
             Learn more{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -19,11 +20,11 @@ export default function Footer() {
                 d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42c.39.39 1.02.39 1.41 0l6.59-6.59a.996.996 0 0 0 0-1.41l-6.58-6.6a.996.996 0 1 0-1.41 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"
               />
             </svg>
-          </p>
+          </Link>
         </div>
         <div>
           <p className={styles.title}>BUSINESS PROFILE</p>
-          <a href="/business_profile.pdf" className={styles.subtitle} download>Download</a>
+          <Link href={'businessprofile'} className={styles.subtitle}>Download</Link>
         </div>
         <div>
           <p className={styles.title}>PRINCIPAL COMPANY</p>

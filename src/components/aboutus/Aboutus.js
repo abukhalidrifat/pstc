@@ -2,6 +2,7 @@ import React from "react";
 import styles from './Aboutus.module.css'
 import Image from "next/image";
 import organogram from '@/../public/Home Page Images/Organogram.png'
+import Link from "next/link";
 
 export default function Aboutus() {
   return (
@@ -27,7 +28,7 @@ export default function Aboutus() {
         </p>
         <p className={styles.organogram}>Organogram</p>
         <Image src={organogram} className={styles.img}/>
-        <button className={styles.button}>Learn More</button>
+        <Link href={'aboutus'} className={styles.button}>Learn More</Link>
       </div>
     </>
   );
