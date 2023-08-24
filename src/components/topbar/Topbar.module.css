@@ -31,3 +31,45 @@
   height: 60px;
   margin-right: 15px;
 }
+
+@media only screen and (max-width: 1400px) {
+  .conatiner p {
+    font-size: 3.2rem;
+  }
+  .mainlogo {
+    width: 130px;
+    height: 80px;
+  }
+  .logo {
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  .logoDiv {
+    display: none;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .conatiner p {
+    font-size: 2.4rem;
+  }
+  .mainlogo {
+    width: 100px;
+    height: 60px;
+  }
+  .logo {
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .conatiner p {
+    font-size: 2.4rem;
+  }
+  .mainlogo {
+    width: 80px;
+    height: 50px;
+  }
+  .logo {
+    width: 70px;
+  }
+}

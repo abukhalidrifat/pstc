@@ -39,7 +39,7 @@ export default function Mainbusinessareas() {
             <Image src={mainarea2} className={styles.mainareaimg}/>
             <Image src={mainarea3} className={styles.mainareaimg}/>
             <Image src={mainarea4} className={styles.mainareaimg}/>
-            <Image src={mainarea5} className={styles.mainareaimg}/>
+            {/* <Image src={mainarea5} className={styles.mainareaimg}/> */}
         </div>
         <div className={styles.redbox}></div>
       </div>

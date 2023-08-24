@@ -1,57 +1,83 @@
-.container{
-    background-color: #1b2c33;
-    padding: 50px 100px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
+.container {
+  background-color: #1b2c33;
+  padding: 50px 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
-.title{
-    font-size: 24px;
-    font-weight: 400;
-    color: white;
-    margin-bottom: 20px;
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 20px;
 }
 
-.subtitle{
-    font-size: 22px;
-    font-weight: 400;
-    color: white;
-    display: flex;
+.subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+  display: flex;
 }
-.subtitle svg{
-    margin-left: 10px;
+.subtitle svg {
+  margin-left: 10px;
 }
-.phone{
-    font-size: 18px;
-    font-weight: 400;
-    color: white;
-    margin-left: 10px;
+.phone {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-left: 10px;
 }
-.address{
-    margin-top: 15px;
-    margin-left: 10px;
-    width: 250px;
-    font-size: 22px;
-    font-weight: 400;
-    color: white;
+.address {
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 250px;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
 }
-.copyright{
-    background-color: black;
-    color: white;
-    padding: 60px 110px;
-    display: flex;
-    justify-content: space-between;
+.copyright {
+  background-color: black;
+  color: white;
+  padding: 60px 110px;
+  display: flex;
+  justify-content: space-between;
 }
-.copyright p{
-    font-size: 2.4rem;
-    font-weight: 400;
-    color: white;
+.copyright p {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: white;
 }
-.social svg{
-    margin-left: 20px;
-    border: 2px solid white;
-    padding: 10px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
+.social svg {
+  margin-left: 20px;
+  border: 2px solid white;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1150px) {
+  .container {
+    padding: 50px 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+}
+@media only screen and (max-width: 700px) {
+    .copyright{
+       flex-direction: column;
+       row-gap: 30px;
+       justify-content: start;
+       padding: 20px;
+      }
+      .copyright p{
+        font-size: 2.2rem;
+      }
+}
+@media only screen and (max-width: 545px) {
+  .container {
+    padding: 30px 20px;
+  }
 }

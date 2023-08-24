@@ -15,7 +15,8 @@
     margin-bottom: 10px;
 }
 .mainareaimg{
-    width: 384px;
+    width: 25%;
+    /* width: 384px; */
     height: 760px;
     object-fit: cover;
 }
@@ -24,3 +25,25 @@
     height: 70px;
     background-color: #ff0000;
 }
+
+@media only screen and (max-width: 1200px) {
+  }
+
+@media only screen and (max-width: 1000px) {
+    .title{
+        font-size: 4rem;
+    }
+    .items{
+        padding: 40px 30px;
+        margin-left: 20px;
+    }
+    .items ul li{
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+  }
+@media only screen and (max-width: 400px) {
+    .title{
+        font-size: 3rem;
+    }
+  }

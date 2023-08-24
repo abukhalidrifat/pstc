@@ -18,13 +18,34 @@ export default function HomeProducts() {
         <p className={styles.heading}>PRODUCTS</p>
 
         <Swiper
-          spaceBetween={50}
-          slidesPerView={4}
+          // spaceBetween={50}
+          slidesPerView={1}
           modules={[Autoplay]}
           autoplay={{ delay: 2000 }}
+          centeredSlides={false}
+          centerInsufficientSlides={true}
+          breakpoints={{
+            // when window width is >= 730px
+            730: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            800: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1100: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1500: {
+              slidesPerView: 4,
+              spaceBetween: 50,
+            },
+          }}
         >
           {ourProducts.map((item) => (
-            <SwiperSlide>
+            <SwiperSlide className={styles.MySwiperSlide}>
               <ProductCrad
                 title={item.title}
                 img={item.img}

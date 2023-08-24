@@ -10,7 +10,7 @@ export default function Contactus() {
           House No: 294, Road No: 1, Baitul Aman Housing Society, Adabor,
           Dhaka-1207 | +88 02 8190183 | +88 02 8190183
         </p>
-        <p className={styles.subtitle} style={{width:'1310px',margin:'auto'}}>
+        <p className={styles.subtitle} style={{maxWidth:'1310px',margin:'auto'}}>
           Sales & Service Hotline (24*7) | +88 01723419748 |
           +8801872657170/+8801810079221 | sales@powersolutiontrading.com |
           powersolutionbd11@gmail.com
