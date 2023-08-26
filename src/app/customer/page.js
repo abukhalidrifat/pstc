@@ -16,7 +16,7 @@ export default function Customer() {
       <Navbar />
       <section>
         <div className={styles.title}>
-          <p>OUR PRINCIPAL CUSTOMER</p>
+          <p>OUR CUSTOMERS</p>
         </div>
         <div className={styles.ourServices}>
           <ul>
@@ -78,9 +78,28 @@ export default function Customer() {
         </div>
         <Swiper
           spaceBetween={30}
-          slidesPerView={4}
+          slidesPerView={1}
           modules={[Autoplay]}
           autoplay={{ delay: 2000 }}
+          breakpoints={{
+            // when window width is >= 730px
+            730: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            800: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1100: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1500: {
+              slidesPerView: 4,
+              spaceBetween: 50,
+            },
+          }}
         >
           <SwiperSlide className={styles.slider}>
             <div>

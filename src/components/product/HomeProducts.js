@@ -18,7 +18,6 @@ export default function HomeProducts() {
         <p className={styles.heading}>PRODUCTS</p>
 
         <Swiper
-          // spaceBetween={50}
           slidesPerView={1}
           modules={[Autoplay]}
           autoplay={{ delay: 2000 }}

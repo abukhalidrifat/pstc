@@ -14,7 +14,7 @@ export default function BusinessProfile() {
       <Navbar />
       <section>
         <div className={styles.title}>
-          <p>OUR BUSINESS PROFILE</p>
+          <p>BUSINESS PROFILE</p>
         </div>
         <div className={styles.business}>
           <Image

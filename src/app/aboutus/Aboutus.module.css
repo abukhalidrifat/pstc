@@ -13,7 +13,7 @@
     font-size: 6.8rem;
 }
 .paragraph{
-    width: 1310px;
+    max-width: 1310px;
     margin: auto;
     font-size: 3.3rem;
     font-weight: 500;
@@ -21,6 +21,7 @@
     text-align: justify;
     margin-bottom: 60px;
     line-height: 40px;
+    padding: 0 10px;
 }
 
 .img{
@@ -37,3 +38,37 @@
     font-size: 3.3rem;
     margin-bottom: 10px;
 }
+
+
+@media only screen and (max-width: 1080px) {
+    .img {
+      max-width: 900px;
+    }
+  }
+  @media only screen and (max-width: 890px) {
+    .img {
+      max-width: 700px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .img {
+      max-width: 600px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .title {
+      font-size: 3.8rem;
+    }
+    .paragraph {
+      font-size: 2rem;
+    }
+    .img {
+      max-width: 480px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .img {
+        max-width: 300px;
+        height: 400px;
+      }
+    }

@@ -7,11 +7,11 @@ import mainarea4 from '@/../public/Home Page Images/Main_Area_04.jpg'
 import mainarea5 from '@/../public/Home Page Images/Main_Area_05.jpg'
 import Image from "next/image";
 
-export default function Mainbusinessareas() {
+export default function Mainbusinessareas({hideTitle = false}) {
   return (
     <>
-      <div className={styles.container}>
-        <p className={styles.title}>MAIN AREAS OF BUSINESS</p>
+      <div className={styles.container} style={!hideTitle ? {paddingTop: "70px"}: {paddingTop: "0",marginTop:'-40px'}}>
+        <p className={styles.title} style={hideTitle ? {display:'none'}: null}>MAIN AREAS OF BUSINESS</p>
         <div className={styles.items}>
           <ul>
             <li>

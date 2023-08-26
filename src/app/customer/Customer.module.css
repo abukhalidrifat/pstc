@@ -12,17 +12,17 @@
   text-align: center;
 }
 
-.title:hover p{
+.title:hover p {
   font-size: 4.6rem;
 }
 
 .ourServices {
   padding: 110px 180px;
+  overflow-x: auto;
 }
 .ourServices ul li {
   font-size: 2.9rem;
   font-weight: 400;
-  text-align: justify;
   margin-bottom: 20px;
 }
 .ourServices ul li:last-child {
@@ -30,6 +30,8 @@
 }
 .slider {
   padding: 0 30px;
+  display: flex;
+  justify-content: center;
 }
 .slider div {
   width: 400px;
@@ -83,30 +85,83 @@
   margin-top: 80px;
   width: fit-content;
 }
-.principal{
-    display: flex;
-    justify-content: center;
-    padding: 130px;
+.principal {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 130px;
+  row-gap: 20px;
+  text-align: center;
 }
-.principal h2{
-    font-size: 3.4rem;
+.principal h2 {
+  font-size: 3.4rem;
   font-weight: 500;
   color: black;
   margin: 20px 0;
 }
 .principal p {
-    width: 600px;
+  width: 600px;
   font-size: 2.8rem;
   font-weight: 400;
   color: black;
   line-height: 1.4;
 }
-.img{
+.img {
   width: 100%;
   height: 700px;
   object-fit: fill;
 }
 
-.business img{
+.business img {
   margin-bottom: 30px;
+  max-width: 1400px;
+  max-height: 2000px;
+  width: 95%;
+  height: 95%;
+}
+
+@media only screen and (max-width: 1040px) {
+  .ourServices {
+    padding: 110px 100px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .ourServices {
+    padding: 110px 60px;
+  }
+  .table thead tr th {
+    font-size: 2.6rem;
+  }
+  .table tbody tr td {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .ourServices {
+    padding: 110px 20px;
+  }
+  .table thead tr th {
+    font-size: 2.2rem;
+  }
+  .table tbody tr td {
+    font-size: 2rem;
+  }
+  .ourServices ul {
+    margin-left: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ourServices {
+    padding: 60px 10px;
+  }
+  .table thead tr th {
+    font-size: 1.8rem;
+  }
+  .table tbody tr td {
+    font-size: 1.6rem;
+  }
+  .button, .download{
+    font-size: 2.2rem;
+    padding: 15px 20px;
+  }
 }

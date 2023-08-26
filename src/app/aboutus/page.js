@@ -6,6 +6,7 @@ import Footer from "@/components/footer/footer";
 import organogram from "@/../public/Home Page Images/Organogram.png";
 import Image from "next/image";
 import Contactus from "@/components/contactus/Contactus";
+import Mainbusinessareas from "@/components/mainbusinessareas/Mainbusinessareas";
 
 export default function AboutUs() {
   return (
@@ -47,28 +48,7 @@ export default function AboutUs() {
         <p className={styles.title}>Organogram</p>
         <Image src={organogram} className={styles.img} />
         <p className={styles.title}>Main areas of business</p>
-        <div className={styles.items}>
-          <ul>
-            <li>
-              Power Generation Sector • Power Transmission & Distribution
-              Substation Sector
-            </li>
-            <li>
-              Overhead Transmission & Distribution Line Sector •
-              Telecommunication Sector
-            </li>
-            <li>
-              Renewable Energy Generation Sector • Oil & Gas Production Sector
-            </li>
-            <li>Oil & Gas Exploration Sector • Industrial Automation Sector</li>
-            <li>Manufacturing Industries • Pharmaceutical Factory</li>
-            <li>Cement Factory • Glass Production Factory</li>
-            <li>Textile and Spinning Mill • Garment Factory</li>
-            <li>Steel Mill • Water Treatment Plant </li>
-            <li>Beverage Plant</li>
-            <li>Industrial Production Plant</li>
-          </ul>
-        </div>
+        <Mainbusinessareas hideTitle={true}/>
         <Contactus/>
       </section>
       <Footer />

@@ -60,6 +60,10 @@
   .img {
     max-width: 600px;
   }
+  .button{
+    font-size: 2.2rem;
+    padding: 20px 35px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .container {
